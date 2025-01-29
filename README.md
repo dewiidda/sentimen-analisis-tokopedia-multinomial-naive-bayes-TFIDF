@@ -1,13 +1,19 @@
-# sentimen-analisis-tokopedia-multinomial-naive-bayes-TFIDF
-Ini adalah program yang saya buat di Jupyter Notebook untuk melakukan klasifikasi data tweet di sosial media Twitter menggunakan algoritma Multinomial Naive Bayes dan TF-IDF menggunakan library Sklearn.
+# Sentiment Analysis of Tokopedia Tweets using Multinomial Naive Bayes & TF-IDF  
 
-Folder "Kode" berisi kode program yang saya gunakan untuk menyusun skripsi ini, dengan mekanisme:
-1. Crawling data
-2. Preprocessing data dan visualisasi data
-3. Penemuan NaN (Opsional dikarenakan biasanya ada beberapa data yang menjadi NaN karena kurang koma atau bahkan hilang)
-4. Klasifikasi Multinomial Naive Bayes
+This repository contains a Jupyter Notebook program for classifying tweet data from Twitter using the **Multinomial Naive Bayes** algorithm and **TF-IDF**, utilizing the **Scikit-learn** library.  
 
-Folder "Data" berisi 3 data, yaitu:
-1. Dataset, merupakan data yang sudah saya kumpulkan dan saya labeli secara manual
-2. Dataset preprocessing, merupakan data yang sudah saya preprocessing, tanpa melalui proses stemming
-3. Dataset preprocessing + stemming, merupakan data yang sudah saya preprocessing dan melalui proses stemming
+## 📂 Folder Structure  
+### 📁 `Kode` (Code)  
+This folder contains the scripts used for my thesis, with the following workflow:  
+1. **Data Crawling** – Collecting tweet data  
+2. **Data Preprocessing & Visualization** – Cleaning and analyzing data  
+3. **NaN Detection (Optional)** – Handling missing values caused by formatting issues (e.g., missing commas)  
+4. **Multinomial Naive Bayes Classification** – Training and evaluating the model  
+
+### 📁 `Data` (Dataset)  
+This folder includes three datasets:  
+- **Dataset** – The raw data, manually labeled  
+- **Preprocessed Dataset** – Cleaned data, without stemming  
+- **Preprocessed + Stemmed Dataset** – Cleaned data with stemming applied  
+
+🚀 **Feel free to explore and contribute!**  
